@@ -1,3 +1,5 @@
+@import '../../theme';
+
 @mixin button {
   border: none;
   border-radius: 8px;
@@ -7,5 +9,6 @@
 
 .primary {
   @include button;
-  background: red;
+  background: var(--theme-primary);
+  color: white;
 }
