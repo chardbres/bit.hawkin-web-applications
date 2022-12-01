@@ -1,3 +1,11 @@
+@mixin button {
+  border: none;
+  border-radius: 8px;
+  padding: 1em;
+  margin: 1em;
+}
+
 .primary {
+  @include button;
   background: red;
 }
