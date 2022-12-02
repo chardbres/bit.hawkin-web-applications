@@ -1,4 +1,4 @@
-@import '../../theme';
+@import 'sport-app/theme';
 
 @mixin button {
   border: none;
@@ -10,5 +10,11 @@
 .primary {
   @include button;
   background: var(--theme-primary);
+  color: white;
+}
+
+.secondary {
+  @include button;
+  background: var(--theme-secondary);
   color: white;
 }

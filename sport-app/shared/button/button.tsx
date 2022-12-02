@@ -5,6 +5,10 @@ export type ButtonProps = {
   label: string;
 };
 
-export function Button(props: ButtonProps) {
+export const Button = (props: ButtonProps) => {
   return <button className={styles.primary}>{props.label}</button>;
-}
+};
+
+export const ButtonSec = (props: ButtonProps) => {
+  return <button className={styles.secondary}>{props.label}</button>;
+};

@@ -7,5 +7,5 @@ $theme-map: (
 );
 
 :root {
-  @include spread-map($theme-map-light);
+  @include spread-map($theme-map);
 }
