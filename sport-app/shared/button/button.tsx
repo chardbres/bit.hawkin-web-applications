@@ -3,7 +3,16 @@ import style from './button.module.scss';
 
 export type ButtonProps = {
   label: string;
-  type: string;
+  type:
+    | 'primary'
+    | 'primary-small'
+    | 'primary-large'
+    | 'secondary'
+    | 'secondary-small'
+    | 'secondary-large'
+    | 'accent'
+    | 'accent-small'
+    | 'accent-large';
 };
 
 export const Button = (props: ButtonProps) => {
