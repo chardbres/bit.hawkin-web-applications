@@ -1,20 +1,62 @@
 @import 'sport-app/theme';
 
-@mixin button {
+@mixin button($type) {
   border: none;
-  border-radius: 8px;
+  color: var(--text-white);
+  border-radius: 0.5em;
   padding: 1em;
   margin: 1em;
+  background-color: var(--theme-#{$type});
+}
+
+@mixin small {
+  font-size: 0.7em;
+  font-weight: bold;
+}
+
+@mixin large {
+  font-size: 1em;
 }
 
 .primary {
-  @include button;
-  background: var(--theme-primary);
-  color: white;
+  @include button('primary');
+}
+
+.primary-small {
+  @extend .primary;
+  @include small;
+}
+
+.primary-large {
+  @extend .primary;
+  @include large;
 }
 
 .secondary {
-  @include button;
-  background: var(--theme-secondary);
-  color: white;
+  @include button('secondary');
+}
+
+.secondary-small {
+  @extend .secondary;
+  @include small;
+}
+
+.secondary-large {
+  @extend .secondary;
+  @include large;
+}
+
+.accent {
+  @include button('accent');
+  color: var(--text-dark);
+}
+
+.accent-small {
+  @extend .accent;
+  @include small;
+}
+
+.accent-large {
+  @extend .accent;
+  @include large;
 }

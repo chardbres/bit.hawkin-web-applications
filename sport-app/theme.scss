@@ -2,8 +2,21 @@
 @import 'mixins';
 
 $theme-map: (
-  $--theme-primary: blue,
-  $--theme-secondary: green,
+  // Hawkin brand colors
+  $--theme-primary: #005a70,
+  $--theme-secondary: #46acb9,
+  $--theme-secondary-light: #7cdeed,
+  $--theme-accent: #ffd740,
+  // Text colors
+  $--text: #ffffffb8,
+  $--text-disabled: #ffffff1a,
+  $--text-white: #fff,
+  $--text-secondary: #ffffff8a,
+  $--text-dark: #000000e0,
+  // Status indicators
+  $--danger: #ff0000,
+  $--warning: #ffc107,
+  $--okay: #4caf50
 );
 
 :root {
