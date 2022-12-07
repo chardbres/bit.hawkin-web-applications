@@ -40,6 +40,7 @@
     "policy": {
       "dependencies": {
         "@teambit/eslint-config-bit-react": "~0.0.367",
+        "@teambit/jest": "0.0.927",
         "@types/jest": "29.2.4",
         "@typescript-eslint/eslint-plugin": "4.29.3",
         "eslint-import-resolver-node": "0.3.6",
