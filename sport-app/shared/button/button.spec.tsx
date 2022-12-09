@@ -1,5 +1,5 @@
 import React from 'react';
-import { render, screen } from '@testing-library/react';
+import { render, screen, cleanup } from '@testing-library/react';
 import { axe, toHaveNoViolations } from 'jest-axe';
 import { Button } from './button';
 
@@ -13,5 +13,7 @@ it('should render a button with the class of primary', () => {
 
 it('should have no basic accessibility issues', async () => {
   const { container } = render(<Button type="primary" label="Primary" />);
-  expect(await axe(container)).toHaveNoViolations();
+  const results = await axe(container);
+  expect(results).toHaveNoViolations();
+  cleanup();
 });

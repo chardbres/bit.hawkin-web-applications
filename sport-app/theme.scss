@@ -7,6 +7,7 @@ $theme-map: (
   $--theme-secondary: #46acb9,
   $--theme-secondary-light: #7cdeed,
   $--theme-accent: #ffd740,
+  $--theme-dark: #1e1e1e,
   // Text colors
   $--text: #ffffffb8,
   $--text-disabled: #ffffff1a,
@@ -16,7 +17,19 @@ $theme-map: (
   // Status indicators
   $--danger: #ff0000,
   $--warning: #ffc107,
-  $--okay: #4caf50
+  $--okay: #4caf50,
+  // Surface colors
+  $--surface0: #121212,
+  $--surface1: #1e1e1e,
+  $--surface2: #222222,
+  $--surface3: #242424,
+  $--surface4: #272727,
+  $--surface6: #2c2c2c,
+  $--surface8: #2e2e2e,
+  $--surface12: #333333,
+  $--surface16: #343434,
+  $--surface24: #383838,
+  $--separator: #0d0d0d
 );
 
 :root {

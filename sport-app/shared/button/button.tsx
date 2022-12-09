@@ -12,7 +12,10 @@ export type ButtonProps = {
     | 'secondary-large'
     | 'accent'
     | 'accent-small'
-    | 'accent-large';
+    | 'accent-large'
+    | 'dark'
+    | 'dark-small'
+    | 'dark-large';
 };
 
 export const Button = (props: ButtonProps) => {

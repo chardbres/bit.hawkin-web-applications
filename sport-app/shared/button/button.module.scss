@@ -60,3 +60,18 @@
   @extend .accent;
   @include large;
 }
+
+.dark {
+  @include button('dark');
+  color: var(--text);
+}
+
+.dark-small {
+  @extend .dark;
+  @include small;
+}
+
+.dark-large {
+  @extend .dark;
+  @include large;
+}

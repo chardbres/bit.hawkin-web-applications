@@ -1,0 +1,48 @@
+@import 'sport-app/theme';
+
+@mixin input {
+  border-radius: 0.4em;
+  border-style: solid;
+  height: 1.5em;
+  margin: 1em;
+  padding-left: 0.5em;
+}
+
+@mixin placeholder {
+  &::placeholder {
+    @content;
+  }
+  &::--webkit-input-placeholder {
+    @content;
+  }
+  &:-moz-placeholder {
+    @content;
+  }
+  &::-moz-placeholder {
+    @content;
+  }
+  &:-ms-input-placeholder {
+    @content;
+  }
+}
+
+.primary {
+  @include input;
+  border-color: var(--theme-primary);
+  color: var(--theme-primary);
+}
+
+.secondary {
+  @include input;
+  border-color: var(--theme-secondary);
+}
+
+.dark {
+  @include input;
+  @include placeholder {
+    color: var(--text);
+  }
+  background-color: var(--surface1);
+  border-color: var(--separator);
+  color: var(--text);
+}
