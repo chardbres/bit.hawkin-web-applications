@@ -2,7 +2,14 @@
   "extends": "./node_modules/@teambit/react/typescript/tsconfig.json",
   // "include": [],
   "compilerOptions": {
-    "noEmit": true
+    "jsx": "preserve",
+    "noEmit": true,
+    "target": "es6",
+    "baseUrl": "./",
+    "paths": {
+      "@/shared/*": ["sport-app/shared/*"]
+    }
   },
+  "include": ["sport-app/**/*", "types/**/*"],
   "exclude": ["dist", "node_modules"]
 }

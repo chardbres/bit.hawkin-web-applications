@@ -1,11 +1,10 @@
 @import 'sport-app/theme';
 
 @mixin input {
-  border-radius: 0.4em;
   border-style: solid;
-  height: 1.5em;
-  margin: 1em;
-  padding-left: 0.5em;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+  margin: 0.5rem;
 }
 
 @mixin placeholder {

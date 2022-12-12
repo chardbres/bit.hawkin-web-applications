@@ -41,6 +41,7 @@
       "dependencies": {
         "@teambit/eslint-config-bit-react": "~0.0.367",
         "@teambit/jest": "0.0.927",
+        "@teambit/webpack": "0.0.928",
         "@types/jest": "29.2.4",
         "@typescript-eslint/eslint-plugin": "4.29.3",
         "eslint-import-resolver-node": "0.3.6",
@@ -66,5 +67,9 @@
    * wrap the rule with curly brackets (e.g. `"{ui/*}": {}`)
    * see https://bit.dev/docs/workspace/variants for more info.
    **/
-  "teambit.workspace/variants": {}
+  "teambit.workspace/variants": {
+    "sport-app": {
+      "teambit.react/react": {}
+    }
+  }
 }

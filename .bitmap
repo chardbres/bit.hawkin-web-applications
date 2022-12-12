@@ -9,6 +9,19 @@
  */
 
 {
+    "form/text-input": {
+        "scope": "",
+        "version": "",
+        "defaultScope": "hawkin.sport-app",
+        "mainFile": "index.ts",
+        "rootDir": "sport-app/form/text-input",
+        "config": {
+            "teambit.react/react": {},
+            "teambit.envs/envs": {
+                "env": "teambit.react/react"
+            }
+        }
+    },
     "shared/button": {
         "scope": "",
         "version": "",

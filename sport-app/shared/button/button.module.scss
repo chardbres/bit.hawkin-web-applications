@@ -3,19 +3,21 @@
 @mixin button($type) {
   border: none;
   color: var(--text-white);
-  border-radius: 0.5em;
-  padding: 1em;
-  margin: 1em;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  padding: 0.8rem 1.2rem;
+  margin: 0.5rem;
   background-color: var(--theme-#{$type});
 }
 
 @mixin small {
-  font-size: 0.7em;
+  font-size: 0.7rem;
   font-weight: bold;
 }
 
 @mixin large {
-  font-size: 1em;
+  font-size: 1.2rem;
+  padding: 1rem 1.2rem;
 }
 
 .primary {
