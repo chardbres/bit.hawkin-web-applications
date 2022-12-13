@@ -9,6 +9,13 @@
  */
 
 {
+    "form/login": {
+        "scope": "",
+        "version": "",
+        "defaultScope": "hawkin.sport-app",
+        "mainFile": "index.ts",
+        "rootDir": "sport-app/form/login"
+    },
     "form/text-input": {
         "scope": "",
         "version": "",
@@ -22,6 +29,13 @@
             }
         }
     },
+    "layout/column": {
+        "scope": "",
+        "version": "",
+        "defaultScope": "hawkin.sport-app",
+        "mainFile": "index.ts",
+        "rootDir": "sport-app/layout/column"
+    },
     "shared/button": {
         "scope": "",
         "version": "",
@@ -34,6 +48,13 @@
                 "env": "teambit.react/react"
             }
         }
+    },
+    "shared/card": {
+        "scope": "",
+        "version": "",
+        "defaultScope": "hawkin.sport-app",
+        "mainFile": "index.ts",
+        "rootDir": "sport-app/shared/card"
     },
     "shared/input": {
         "scope": "",

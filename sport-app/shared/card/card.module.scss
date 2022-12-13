@@ -1,0 +1,37 @@
+@import 'sport-app/theme';
+
+@mixin card($size) {
+  border: 1px solid var(--theme-dark);
+  border-radius: 10px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  @if $size == 'small' {
+    height: 40vh;
+    width: 40vw;
+  } @else if $size == 'medium' {
+    height: 85vh;
+    width: 85vw;
+  } @else if $size == 'large' {
+    height: 98vh;
+    width: 98vw;
+  } @else if $size == 'full' {
+    height: 100vh;
+    width: 100vw;
+  } @else {
+    height: 100%;
+    width: 100%;
+  }
+}
+
+.small {
+  @include card('small');
+}
+
+.medium {
+  @include card('medium');
+}
+
+.large {
+  @include card('large');
+}

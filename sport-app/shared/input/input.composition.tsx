@@ -2,13 +2,17 @@ import React from 'react';
 import { Input } from './input';
 
 export const PrimaryInput = () => {
-  return <Input label="Primary" type="primary" />;
+  return <Input placeholder="Primary" type="primary" />;
 };
 
 export const SecondaryInput = () => {
-  return <Input label="Secondary" type="secondary" />;
+  return <Input placeholder="Secondary" type="secondary" />;
 };
 
 export const DarkInput = () => {
-  return <Input label="Accent" type="dark" />;
+  return <Input placeholder="Accent" type="dark" />;
+};
+
+export const DarkOutlineInput = () => {
+  return <Input placeholder="Dark outline" type="dark-outline" />;
 };

@@ -29,7 +29,9 @@ $theme-map: (
   $--surface12: #333333,
   $--surface16: #343434,
   $--surface24: #383838,
-  $--separator: #0d0d0d
+  $--separator: #0d0d0d,
+  // Theme font family
+  $--font-family: ('Nunito Sans', sans-serif)
 );
 
 :root {

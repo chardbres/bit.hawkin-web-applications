@@ -2,7 +2,7 @@
 
 @mixin input {
   border-style: solid;
-  border-radius: 0.5rem;
+  border-radius: 8px;
   padding: 0.5rem;
   margin: 0.5rem;
 }
@@ -44,4 +44,13 @@
   background-color: var(--surface1);
   border-color: var(--separator);
   color: var(--text);
+}
+
+.dark-outline {
+  @include input;
+  @include placeholder {
+    color: var(--surface1);
+  }
+  border-color: var(--surface1);
+  color: var(--text-dark);
 }

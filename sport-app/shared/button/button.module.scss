@@ -3,7 +3,8 @@
 @mixin button($type) {
   border: none;
   color: var(--text-white);
-  border-radius: 0.5rem;
+  border-radius: 8px;
+  font-family: var(--font-family);
   font-size: 1rem;
   padding: 0.8rem 1.2rem;
   margin: 0.5rem;
