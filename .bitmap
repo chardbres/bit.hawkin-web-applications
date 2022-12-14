@@ -56,6 +56,13 @@
         "mainFile": "index.ts",
         "rootDir": "sport-app/shared/card"
     },
+    "shared/icons": {
+        "scope": "",
+        "version": "",
+        "defaultScope": "hawkin.sport-app",
+        "mainFile": "index.ts",
+        "rootDir": "sport-app/shared/icons"
+    },
     "shared/input": {
         "scope": "",
         "version": "",

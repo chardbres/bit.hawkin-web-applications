@@ -10,7 +10,7 @@ export const SecondaryInput = () => {
 };
 
 export const DarkInput = () => {
-  return <Input placeholder="Accent" type="dark" />;
+  return <Input placeholder="Dark" type="dark" />;
 };
 
 export const DarkOutlineInput = () => {

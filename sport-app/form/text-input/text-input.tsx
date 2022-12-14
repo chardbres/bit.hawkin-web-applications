@@ -1,6 +1,6 @@
 import React from 'react';
-import { Button, ButtonProps } from '@hawkin/sport-app.shared.button';
-import { Input, InputProps } from '@hawkin/sport-app.shared.input';
+import { Button } from '@hawkin/sport-app.shared.button';
+import { Input } from '@hawkin/sport-app.shared.input';
 import style from './text-input.module.scss';
 
 export type TextInputProps = {

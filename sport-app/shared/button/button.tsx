@@ -19,5 +19,6 @@ export type ButtonProps = {
 };
 
 export const Button = (props: ButtonProps) => {
-  return <button className={style[props.type]}>{props.label}</button>;
+  const capLabel = props.label.toUpperCase();
+  return <button className={style[props.type]}>{capLabel}</button>;
 };

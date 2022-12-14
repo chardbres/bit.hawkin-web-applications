@@ -2,17 +2,21 @@
 description: A TextInput component.
 ---
 
-import { TextInput } from './text-input';
+import { PrimaryTextInput } from './text-input';
 
 A component that does something special and renders text in a div.
 
 ### Component usage
+
 ```js
-<TextInput>Hello world!</TextInput>
+<PrimaryTextInput
+  placeholder="Placeholder text..."
+  buttonLabel="Button text..."
+/>
 ```
 
-### Render hello world!
+### Render primary-styled text input and submit button.
 
 ```js live
-<TextInput>Hello world!</TextInput>
+<PrimaryTextInput placeholder="Placeholder text..." buttonLabel="submit" />
 ```
