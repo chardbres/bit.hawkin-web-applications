@@ -9,7 +9,7 @@ export type IconsProps = {
 export const FullLogo = (): React.ReactElement => {
   return (
     <div className={style.fullLogo}>
-      <img src={Logo} />
+      <img className={style.logo} src={Logo} alt="Hawkin Dynamics Logo" />
     </div>
   );
 };

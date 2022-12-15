@@ -9,5 +9,5 @@ export type ColumnProps = {
 };
 
 export function Column({ children }: ColumnProps): React.ReactElement {
-  return <div>{children}</div>;
+  return <div className={style.column}>{children}</div>;
 }

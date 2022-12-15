@@ -1,6 +1,8 @@
 import React, { ReactNode } from 'react';
 import { Card } from '@hawkin/sport-app.shared.card';
 import { Column } from '@hawkin/sport-app.layout.column';
+import { FullLogo } from '@hawkin/sport-app.shared.icons';
+import style from './login.module.scss';
 
 export type LoginProps = {
   /**
@@ -13,7 +15,9 @@ export function Login({ children }: LoginProps) {
   return (
     <Card>
       <Column>
-        <p>Test!</p>
+        <header className={style.cardHeader}>
+          <FullLogo />
+        </header>
       </Column>
     </Card>
   );
