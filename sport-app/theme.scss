@@ -24,15 +24,22 @@ $theme-map: (
   $--surface2: #222222,
   $--surface3: #242424,
   $--surface4: #272727,
-  $--surface6: #2c2c2c,
-  $--surface8: #2e2e2e,
-  $--surface12: #333333,
-  $--surface16: #343434,
-  $--surface24: #383838,
+  $--surface5: #2c2c2c,
+  $--surface6: #2e2e2e,
+  $--surface7: #333333,
+  $--surface8: #343434,
+  $--surface9: #383838,
   $--separator: #0d0d0d,
   // Theme font family
   $--font-family: ('Nunito Sans', sans-serif)
 );
+
+@mixin h1_styled {
+  font-family: var(--font-family);
+  font-size: calc(22px + (34 - 24) * ((100vw - 300px) / (1600 - 300)));
+  font-weight: 100;
+  line-height: calc(1.3em + (1.5 - 1.2) * ((100vw - 300px) / (1600 - 300)));
+}
 
 :root {
   @include spread-map($theme-map);

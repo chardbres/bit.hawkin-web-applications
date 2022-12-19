@@ -8,7 +8,9 @@
   position: relative;
   @if $size == 'small' {
     height: 40vh;
+    max-height: 340px;
     width: 40vw;
+    max-width: 500px;
   } @else if $size == 'medium' {
     height: 85vh;
     width: 85vw;

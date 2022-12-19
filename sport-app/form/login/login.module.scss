@@ -1,9 +1,40 @@
 @import 'sport-app/theme';
 
-.cardHeader {
+@mixin alignment {
+  align-items: center;
   display: flex;
+  justify-content: center;
+}
+
+.cardHeader {
+  @include alignment;
   background-color: var(--surface8);
   justify-content: center;
-  padding: 10px;
-  width: 100%;
+}
+
+.cardBody {
+  background-color: var(--surface3);
+  color: var(--text);
+  height: 100%;
+  font-family: var(--font-family);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+
+  h1 {
+    margin: 0.5rem;
+    @include h1_styled;
+  }
+}
+
+.cardFooter {
+  @include alignment;
+  background-color: var(--surface8);
+  justify-content: space-between;
+
+  p {
+    font-family: var(--font-family);
+    color: var(--text);
+    margin: 0.5rem;
+  }
 }

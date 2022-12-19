@@ -1,0 +1,16 @@
+@import 'sport-app/theme';
+
+@mixin row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.row {
+  @include row;
+}
+
+.rowDark {
+  @include row;
+  background-color: var(--theme-dark);
+}

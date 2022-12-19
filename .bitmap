@@ -36,6 +36,20 @@
         "mainFile": "index.ts",
         "rootDir": "sport-app/layout/column"
     },
+    "layout/header": {
+        "scope": "",
+        "version": "",
+        "defaultScope": "hawkin.sport-app",
+        "mainFile": "index.ts",
+        "rootDir": "sport-app/layout/header"
+    },
+    "layout/row": {
+        "scope": "",
+        "version": "",
+        "defaultScope": "hawkin.sport-app",
+        "mainFile": "index.ts",
+        "rootDir": "sport-app/layout/row"
+    },
     "shared/button": {
         "scope": "",
         "version": "",
@@ -56,13 +70,6 @@
         "mainFile": "index.ts",
         "rootDir": "sport-app/shared/card"
     },
-    "shared/icons": {
-        "scope": "",
-        "version": "",
-        "defaultScope": "hawkin.sport-app",
-        "mainFile": "index.ts",
-        "rootDir": "sport-app/shared/icons"
-    },
     "shared/input": {
         "scope": "",
         "version": "",
@@ -75,6 +82,13 @@
                 "env": "teambit.react/react"
             }
         }
+    },
+    "shared/logos": {
+        "scope": "",
+        "version": "",
+        "defaultScope": "hawkin.sport-app",
+        "mainFile": "index.ts",
+        "rootDir": "sport-app/shared/logos"
     },
     "$schema-version": "15.0.0"
 }

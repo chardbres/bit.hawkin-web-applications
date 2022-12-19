@@ -1,7 +1,7 @@
 import React from 'react';
-import { FullLogo } from './icons';
+import { FullLogo } from './logos';
 
-export const FullIcon = () => {
+export const FullHawkinLogo = () => {
   return (
     <div style={{ background: 'black' }}>
       <FullLogo />
