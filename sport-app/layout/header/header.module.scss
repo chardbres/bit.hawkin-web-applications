@@ -1,1 +1,35 @@
 @import 'sport-app/theme';
+
+@mixin alignment {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.headerDiv {
+  @include alignment;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+}
+
+.contentDiv {
+  @include alignment;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.logoDiv {
+  @include alignment;
+}
+
+.menuDiv {
+  @include alignment;
+  color: var(--text);
+  font-family: var(--font-family);
+
+  p {
+    margin: 0 0.5rem;
+  }
+}

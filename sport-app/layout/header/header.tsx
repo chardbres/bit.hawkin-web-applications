@@ -11,5 +11,21 @@ export type HeaderProps = {
 };
 
 export const Header = (): React.ReactElement => {
-  return <RowDark>Hello!</RowDark>;
+  return (
+    <div className={style.headerDiv}>
+      <RowDark>
+        <div className={style.contentDiv}>
+          <div className={style.logoDiv}>
+            <FullLogo />
+          </div>
+          <div className={style.menuDiv}>
+            <p>Live Testing</p>
+            <p>Scoreboard</p>
+            <p>Support</p>
+            <p>Settings</p>
+          </div>
+        </div>
+      </RowDark>
+    </div>
+  );
 };
