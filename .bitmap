@@ -29,6 +29,12 @@
             }
         }
     },
+    "icon-provider": {
+        "scope": "",
+        "version": "",
+        "mainFile": "index.ts",
+        "rootDir": "sport-app/icon-provider"
+    },
     "layout/column": {
         "scope": "",
         "version": "",
@@ -69,6 +75,16 @@
         "defaultScope": "hawkin.sport-app",
         "mainFile": "index.ts",
         "rootDir": "sport-app/shared/card"
+    },
+    "shared/icons": {
+        "scope": "",
+        "version": "",
+        "defaultScope": "hawkin.sport-app",
+        "mainFile": "index.ts",
+        "rootDir": "sport-app/shared/icons",
+        "config": {
+            "hawkin.sport-app/icon-provider": {}
+        }
     },
     "shared/input": {
         "scope": "",
