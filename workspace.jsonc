@@ -50,7 +50,8 @@
         "eslint-plugin-jsx-a11y": "6.4.1",
         "eslint-plugin-mdx": "1.15.0",
         "eslint-plugin-react": "7.25.1",
-        "jest-axe": "7.0.0"
+        "jest-axe": "7.0.0",
+        "material-symbols": "0.4.2"
       },
       "peerDependencies": {
         "@testing-library/react": "^12.1.5",

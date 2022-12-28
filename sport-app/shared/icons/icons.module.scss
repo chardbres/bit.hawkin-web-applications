@@ -1,0 +1,33 @@
+@import 'sport-app/theme';
+
+@mixin alignment {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5rem;
+}
+
+.primary {
+  @include alignment;
+  color: var(--theme-primary);
+}
+
+.secondary {
+  @include alignment;
+  color: var(--theme-secondary);
+}
+
+.accent {
+  @include alignment;
+  color: var(--theme-accent);
+}
+
+.light {
+  @include alignment;
+  color: var(--text);
+}
+
+.dark {
+  @include alignment;
+  color: var(--text-dark);
+}
