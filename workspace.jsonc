@@ -1,7 +1,7 @@
 /**
  * this is the main configuration file of your bit workspace.
  * for full documentation, please see: https://bit.dev/docs/workspace/workspace-configuration
- **/{
+ **/ {
   "$schema": "https://static.bit.dev/teambit/schemas/schema.json",
   /**
    * main configuration of the Bit workspace.
@@ -39,6 +39,11 @@
     "packageManager": "teambit.dependencies/pnpm",
     "policy": {
       "dependencies": {
+        "@emotion/react": "11.10.5",
+        "@emotion/styled": "11.10.5",
+        "@mui/icons-material": "5.11.0",
+        "@mui/material": "5.11.2",
+        "@teambit/component": "0.0.943",
         "@teambit/eslint-config-bit-react": "~0.0.367",
         "@teambit/jest": "0.0.927",
         "@teambit/webpack": "0.0.928",
@@ -69,6 +74,7 @@
    * see https://bit.dev/docs/workspace/variants for more info.
    **/
   "teambit.workspace/variants": {
+    "hawkin.sport-app/icon-provider": {},
     "sport-app": {
       "teambit.react/react": {}
     }
