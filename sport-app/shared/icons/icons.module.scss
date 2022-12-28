@@ -31,3 +31,8 @@
   @include alignment;
   color: var(--text-dark);
 }
+
+.white {
+  @include alignment;
+  color: #fff;
+}
