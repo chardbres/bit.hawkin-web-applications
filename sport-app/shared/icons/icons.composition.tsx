@@ -1,25 +1,25 @@
 import React from 'react';
 import {
-  PlusIcon,
-  CheckIcon,
-  SettingsIcon,
-  MenuIcon,
-  EditIcon,
-  CloseIcon,
+  Icon,
+  // CheckIcon,
+  // SettingsIcon,
+  // MenuIcon,
+  // EditIcon,
+  // CloseIcon,
 } from './icons';
 
 export const PlusIcons = () => {
   return (
     <React.Fragment>
-      <PlusIcon type="secondary" />
-      <PlusIcon type="primary" />
-      <PlusIcon type="accent" />
-      <PlusIcon type="dark" />
+      <Icon name="add" type="secondary" />
+      <Icon name="add" type="primary" />
+      <Icon name="add" type="accent" />
+      <Icon name="add" type="dark" />
       <div style={{ background: 'black' }}>
-        <PlusIcon type="light" />
+        <Icon name="add" type="light" />
       </div>
       <div style={{ background: 'black' }}>
-        <PlusIcon type="white" />
+        <Icon name="add" type="white" />
       </div>
     </React.Fragment>
   );
@@ -28,15 +28,15 @@ export const PlusIcons = () => {
 export const CheckIcons = () => {
   return (
     <React.Fragment>
-      <CheckIcon type="secondary" />
-      <CheckIcon type="primary" />
-      <CheckIcon type="accent" />
-      <CheckIcon type="dark" />
+      <Icon name="check" type="secondary" />
+      <Icon name="check" type="primary" />
+      <Icon name="check" type="accent" />
+      <Icon name="check" type="dark" />
       <div style={{ background: 'black' }}>
-        <CheckIcon type="light" />
+        <Icon name="check" type="light" />
       </div>
       <div style={{ background: 'black' }}>
-        <CheckIcon type="white" />
+        <Icon name="check" type="white" />
       </div>
     </React.Fragment>
   );
@@ -45,15 +45,15 @@ export const CheckIcons = () => {
 export const SettingsIcons = () => {
   return (
     <React.Fragment>
-      <SettingsIcon type="secondary" />
-      <SettingsIcon type="primary" />
-      <SettingsIcon type="accent" />
-      <SettingsIcon type="dark" />
+      <Icon name="settings" type="secondary" />
+      <Icon name="settings" type="primary" />
+      <Icon name="settings" type="accent" />
+      <Icon name="settings" type="dark" />
       <div style={{ background: 'black' }}>
-        <SettingsIcon type="light" />
+        <Icon name="settings" type="light" />
       </div>
       <div style={{ background: 'black' }}>
-        <SettingsIcon type="white" />
+        <Icon name="settings" type="white" />
       </div>
     </React.Fragment>
   );
@@ -62,15 +62,15 @@ export const SettingsIcons = () => {
 export const MenuIcons = () => {
   return (
     <React.Fragment>
-      <MenuIcon type="secondary" />
-      <MenuIcon type="primary" />
-      <MenuIcon type="accent" />
-      <MenuIcon type="dark" />
+      <Icon name="menu" type="secondary" />
+      <Icon name="menu" type="primary" />
+      <Icon name="menu" type="accent" />
+      <Icon name="menu" type="dark" />
       <div style={{ background: 'black' }}>
-        <MenuIcon type="light" />
+        <Icon name="menu" type="light" />
       </div>
       <div style={{ background: 'black' }}>
-        <MenuIcon type="white" />
+        <Icon name="menu" type="white" />
       </div>
     </React.Fragment>
   );
@@ -79,15 +79,15 @@ export const MenuIcons = () => {
 export const EditIcons = () => {
   return (
     <React.Fragment>
-      <EditIcon type="secondary" />
-      <EditIcon type="primary" />
-      <EditIcon type="accent" />
-      <EditIcon type="dark" />
+      <Icon name="edit" type="secondary" />
+      <Icon name="edit" type="primary" />
+      <Icon name="edit" type="accent" />
+      <Icon name="edit" type="dark" />
       <div style={{ background: 'black' }}>
-        <EditIcon type="light" />
+        <Icon name="edit" type="light" />
       </div>
       <div style={{ background: 'black' }}>
-        <EditIcon type="white" />
+        <Icon name="edit" type="white" />
       </div>
     </React.Fragment>
   );
@@ -96,15 +96,15 @@ export const EditIcons = () => {
 export const CloseIcons = () => {
   return (
     <React.Fragment>
-      <CloseIcon type="secondary" />
-      <CloseIcon type="primary" />
-      <CloseIcon type="accent" />
-      <CloseIcon type="dark" />
+      <Icon name="close" type="secondary" />
+      <Icon name="close" type="primary" />
+      <Icon name="close" type="accent" />
+      <Icon name="close" type="dark" />
       <div style={{ background: 'black' }}>
-        <CloseIcon type="light" />
+        <Icon name="close" type="light" />
       </div>
       <div style={{ background: 'black' }}>
-        <CloseIcon type="white" />
+        <Icon name="close" type="white" />
       </div>
     </React.Fragment>
   );

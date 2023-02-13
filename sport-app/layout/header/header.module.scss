@@ -26,10 +26,10 @@
 
 .menuDiv {
   @include alignment;
-  color: var(--text);
+  color: var(--text-white);
   font-family: var(--font-family);
 
   p {
-    margin: 0 0.5rem;
+    margin-right: 0.5rem;
   }
 }
